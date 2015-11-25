@@ -156,7 +156,7 @@ CREATE AGGREGATE <replaceable class="PARAMETER">name</replaceable> (
 -->
 <para>
 一个聚合函数还可能提供一个初始条件，也就是内部状态值的初始值。
-这个值是作为一个类型为<type>text</type>的字段存储在数据库里的，不过它们必须是状态值数据类型的合法的外部 表现形式的常量。
+这个值是作为一个类型为<type>text</type>的字段存储在数据库里的，不过它们必须是状态值数据类型的合法的外部表现形式的常量。
 如果没有提供状态，那么状态值初始化为 NULL 。 
 </para>
 
